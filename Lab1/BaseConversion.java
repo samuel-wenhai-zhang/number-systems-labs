@@ -1,7 +1,7 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
+//Name - Samuel Zhang
 
 import static java.lang.System.*;
 
@@ -12,24 +12,23 @@ public class BaseConversion
 
 	public BaseConversion(String num, int b)
 	{
-
-
-
+		number = num;
+		base = b;
 	}
 
 	public void setNumBase(String num, int b)
 	{
-
-
-
+		number = num;
+		base = b;
 	}
 
 	private int convertToTen( )
 	{
-		int q=number.length();
-		int base10=0;
-
-
+		int base10 = 0;
+		for (int i = 0; i < number.length(); i++) {
+			int digit = (int) number.charAt(i);
+			base10 += digit * Math.pow(base, number.length() - 1 - i);
+		}
 
 		return base10;
 	}
@@ -39,12 +38,10 @@ public class BaseConversion
 	   int base10 = convertToTen();
 		String newNum="";
 
-
-
-
-
-
-
+		while (base10 > 0) {
+			newNum += base10 % newBase;
+			
+		}
 
 		return newNum+"-"+newBase;
 	}
