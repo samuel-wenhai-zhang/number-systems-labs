@@ -9,6 +9,16 @@
       "comparison": "exact",
       "timeout": 10,
       "points": 1
+    },
+    {
+      "name": "Test Convert",
+      "setup": "cd Lab2 && javac *.java",
+      "run": "cd Lab2 && java ConvertRunner",
+      "input": "",
+      "output": "HELLO WORLD\r\n01001000 01000101 01001100 01001100 01001111 00100000 01010111\r\n01001111 01010010 01001100 01000100\r\n\r\n\r\nCOMPUTER SCIENCE\r\n01000011 01001111 01001101 01010000 01010101 01010100 01000101\r\n01010010 00100000 01010011 01000011 01001001 01000101 01001110\r\n01000011 01000101\r\n\r\n\r\nBIG BASE FUN\r\n01000010 01001001 01000111 00100000 01000010 01000001 01010011\r\n01000101 00100000 01000110 01010101 01001110\r\n\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
