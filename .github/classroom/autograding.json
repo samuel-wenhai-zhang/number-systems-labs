@@ -19,6 +19,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 1
+    },
+    {
+      "name": "Test Number",
+      "setup": "cd Lab3 && javac *.java",
+      "run": "cd Lab3 && java NumberRunner",
+      "input": "",
+      "output": "1 1 1\r\n10 2 10\r\n2 2 10\r\n5 5 101\r\n6 6 110\r\n14 19 10011\r\n15 21 10101\r\n12 15 1111\r\n15 15 1111\r\n33 15 1111\r\n99 117 1110101\r\n12345 3267 110011000011\r\n512 254 11111110\r\n23642 10146 10011110100010\r\n65535 65535 1111111111111111",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
