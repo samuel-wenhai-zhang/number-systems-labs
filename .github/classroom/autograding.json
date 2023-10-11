@@ -5,7 +5,7 @@
       "setup": "cd Lab1 && javac *.java",
       "run": "cd Lab1 && java BaseRunner",
       "input": "",
-      "output": "10-10 == 1010-2\r\n\r\n\r\nAB-16 == 171-10 \r\n\r\n\r\n345-6 == 2021-4 \r\n\r\n\r\n25-10 == 11001-2\r\n\r\n\r\n127-10 == 7F-16 \r\n\r\n\r\n1024-7 == 169-16\r\n\r\n\r\n97342-10 == 17C3E-16\r\n\r\n\r\n1010010010001001-2 == A489-16\r\n\r\n",
+      "output": "10-10 == 1010-2\r\n\r\n\r\nAB-16 == 171-10 \r\n\r\n\r\n345-6 == 2021-4 \r\n\r\n\r\n25-10 == 11001-2\r\n\r\n\r\n127-10 == 7F-16 \r\n\r\n\r\n1024-7 == 169-16\r\n\r\n\r\n97342-10 == 17C3E-16\r\n\r\n\r\n1010010010001001-2 == A489-16\r\n",
       "comparison": "included",
       "timeout": 10,
       "points": 1
