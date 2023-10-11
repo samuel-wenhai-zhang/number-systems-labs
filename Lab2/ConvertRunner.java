@@ -1,6 +1,5 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-
 //Name -
 
 import java.io.File;
@@ -12,14 +11,13 @@ public class ConvertRunner
 {
 	public static void main( String args[] ) throws IOException
 	{
-		Scanner file = new Scanner(new File("lab11b.dat"));
-
-		//file from the file
-
-
-
-
-
-
+		Scanner file = new Scanner(new File("convert.dat"));
+		while(file.hasNext())
+		{
+		   String sentence = file.nextLine();
+		   Convert test = new Convert(sentence);
+		   test.convert();
+		   out.println(test);
+		}
 	}
 }
