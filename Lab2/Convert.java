@@ -38,6 +38,6 @@ public class Convert
 
 	public String toString()
 	{
-		return sentence + "\n" + binary + "\n";
+		return sentence + "\n" + binary + "\n\n";
 	}
 }
