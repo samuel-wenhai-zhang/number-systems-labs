@@ -30,6 +30,9 @@ public class Convert
 				b = "0" + b;
 			}
 			binary += b + " ";
+			if ((i + 1) % 7 == 0) {
+				binary += "\n";
+			}
 		}
 	}
 
